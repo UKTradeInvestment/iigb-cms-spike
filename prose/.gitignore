@@ -1,7 +1,6 @@
 .DS_Store
 node_modules/
 transifex.auth
-oauth.json
 .vimrc
 test/lib
 _site
