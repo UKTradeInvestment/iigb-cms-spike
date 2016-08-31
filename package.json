@@ -1,14 +1,14 @@
 {
   "name": "iigb-cms-spike",
   "version": "1.0.0",
-  "engines" : {
+  "engines": {
     "node": "5.6.0"
   },
   "description": "",
   "main": "index.js",
   "scripts": {
-    "postinstall" : "cp oauth.json node_modules/prose &&  cd node_modules && cd prose && npm install && gulp",
-    "start" : "node server.js",
+    "postinstall": "cp oauth.json node_modules/prose &&  cd node_modules && cd prose && npm install && node ../../node_modules/gulp/bin/gulp.js",
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -28,6 +28,7 @@
   "homepage": "https://github.com/UKTradeInvestment/iigb-cms-spike#readme",
   "dependencies": {
     "express": "^4.14.0",
+    "gulp": "^3.9.1",
     "prose": "https://github.com/prose/prose.git#v1.1.21"
   }
 }
