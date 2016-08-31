@@ -7,7 +7,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "postinstall" : "cp oauth.json node_modules/prose &&  cd node_modules && cd prose && npm install && node node_modules/gulp/bin/gulp.js",
+    "preinstall" : "npm install -g gulp",
+    "postinstall" : "cp oauth.json node_modules/prose &&  cd node_modules && cd prose && npm install && gulp",
     "start" : "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
