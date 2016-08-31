@@ -28,6 +28,6 @@
   "homepage": "https://github.com/UKTradeInvestment/iigb-cms-spike#readme",
   "dependencies": {
     "express": "^4.14.0",
-    "prose": "git@github.com:prose/prose.git#v1.1.21"
+    "prose": "https://github.com/prose/prose.git#v1.1.21"
   }
 }
