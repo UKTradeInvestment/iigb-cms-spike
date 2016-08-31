@@ -1,0 +1,6 @@
+{
+  "api": "https://api.github.com",
+  "site": "https://github.com",
+  "clientId": "110a383e0df2aa8aa53d",
+  "gatekeeperUrl": "https://uktibeta-gatekeeper.herokuapp.com"
+}
